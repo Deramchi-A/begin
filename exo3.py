@@ -1,3 +1,4 @@
+'''
 def even_char(num_char):#definetion of the func
     num_list=[]#an empty list
     n=0# the steps 
@@ -11,3 +12,10 @@ def even_char(num_char):#definetion of the func
 
 
 even_char("hamidderamchi")
+'''
+word = input('Enter word: ')
+print('Original String: ', word)
+size = len(word)
+print ('Printing only even index chars')
+for i in range (0,size-1,2):
+    print ("index[",i,"]",word[i])

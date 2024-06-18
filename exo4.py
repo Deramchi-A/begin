@@ -1,3 +1,10 @@
-def remove_chars(chr_list,n=int):
-    for i in chr_list:
-        print(chr_list())
+
+def remove_chars(word,n):
+    size= len (word)
+    if n>=size:
+         print("the length of the word is less then n")
+    else:
+        print( word[n:])
+
+
+remove_chars("abdelhamid", 9)
