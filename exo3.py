@@ -1,4 +1,5 @@
 '''
+My Solution
 def even_char(num_char):#definetion of the func
     num_list=[]#an empty list
     n=0# the steps 

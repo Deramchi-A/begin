@@ -1,4 +1,4 @@
-
+#my solution
 def remove_chars(word,n):
     size= len (word)
     if n>=size:
@@ -8,3 +8,4 @@ def remove_chars(word,n):
 
 
 remove_chars("abdelhamid", 9)
+
